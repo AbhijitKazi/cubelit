@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'cubelit_FE'`, () => {
+  it(`should have as title 'cubelit'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cubelit_FE');
+    expect(app.title).toEqual('cubelit');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('cubelit_FE app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('cubelit app is running!');
   });
 });
