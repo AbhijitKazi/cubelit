@@ -40,3 +40,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#Added files
+/src/old_index.html.txt
+/src/old_styles.txt
